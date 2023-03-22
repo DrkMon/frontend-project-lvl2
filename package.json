@@ -1,0 +1,20 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Вычислитель отличий – программа, определяющая разницу между двумя структурами данных.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrkMon/frontend-project-lvl2.git"
+  },
+  "author": "Evgeny A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrkMon/frontend-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/DrkMon/frontend-project-lvl2#readme",
+  "type": "module"
+}
