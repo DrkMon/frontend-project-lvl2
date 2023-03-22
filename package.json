@@ -2,7 +2,9 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "Вычислитель отличий – программа, определяющая разницу между двумя структурами данных.",
-  "main": "index.js",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +18,8 @@
     "url": "https://github.com/DrkMon/frontend-project-lvl2/issues"
   },
   "homepage": "https://github.com/DrkMon/frontend-project-lvl2#readme",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "commander": "^10.0.0"
+  }
 }
