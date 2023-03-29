@@ -20,6 +20,7 @@
   "homepage": "https://github.com/DrkMon/frontend-project-lvl2#readme",
   "type": "module",
   "devDependencies": {
-    "commander": "^10.0.0"
+    "commander": "^10.0.0",
+    "lodash": "^4.17.21"
   }
 }
