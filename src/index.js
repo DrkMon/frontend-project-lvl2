@@ -1,4 +1,4 @@
-import * as fs from 'node:fs';
+import fs from 'fs';
 import _ from 'lodash';
 
 const genDiff = (file1, file2) => {
