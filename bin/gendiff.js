@@ -2,6 +2,7 @@
 
 import { program } from 'commander';
 import genDiff from '../src/index.js';
+import getParsedFile from '../src/parsers.js';
 
 program
   .name('gendiff')
@@ -10,6 +11,8 @@ program
   .option('-f, --format <type>', 'output format')
   .argument('<filepath1>')
   .argument('<filepath2>')
-  .action((filePath1, filePath2) => console.log(genDiff(filePath1, filePath2)));
+  .action((filePath1, filePath2) => {
+    console.log(genDiff(getParsedFile(filePath1), getParsedFile(filePath2)));
+  });
 
 program.parse();
